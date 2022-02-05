@@ -1,12 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
+import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import List from './scr/views/List';
 
-export default function App() {
+export default function List() {
   return (
     <View style={styles.container}>
-      <List />
-      <StatusBar style="auto" />
+      <Text>List</Text>
     </View>
   );
 }
@@ -14,7 +12,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ffffff',
     alignItems: 'center',
     justifyContent: 'center',
   },
